@@ -1,0 +1,114 @@
+message.module.css
+
+/* Container styles */
+/* .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 90px;
+  background-color: #e6bebe;
+} */
+
+/* Form styles */
+/* .formRow {
+  margin-bottom: 20px;
+}
+
+.formInput {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #675bd4;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #68bedb;
+}
+
+.errorMessage {
+  color: #ff0000;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background-color: #68bedb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+} */
+
+/* message.module.css */
+
+.container {
+  margin-top: 80px; /* Adjust as needed */
+  padding: 20px;
+}
+
+.contactForm {
+  background-color: #efecec; /* Light background color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.formRow {
+  margin-bottom: 20px;
+}
+
+.formControl {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formInput {
+  font-size: 20px;
+}
+
+.errorMessage {
+  color: #dc3545; /* Red color for error messages */
+  font-size: 14px;
+}
+
+.submitBtn {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue color for button */
+  color: #fff; /* White text color */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submitBtn:disabled {
+  background-color: #6c757d; /* Gray out button when disabled */
+  cursor: not-allowed;
+}
+
+.alert {
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.alert-success {
+  background-color: #d4edda; /* Green background for success alert */
+  color: #155724; /* Dark green text color */
+}
+
+.alert-danger {
+  background-color: #f8d7da; /* Red background for danger alert */
+  color: #721c24; /* Dark red text color */
+}

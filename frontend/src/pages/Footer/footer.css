@@ -1,0 +1,60 @@
+.footer-container {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 60px;
+    padding: 40px;
+  }
+  
+  .footer-content {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url('https://img.pikbest.com/backgrounds/20191017/volleyball-league-sports-background-picture_1905182.jpg!sw800');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  .column {
+    flex: 1 1 25%;
+    margin: 0 10px;
+  }
+  
+  .column h2,
+  .column h3 {
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .column ul li {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .column ul li a {
+    color: rgb(6, 5, 5);
+    text-decoration: none;
+  }
+  
+  .column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Hovering effects */
+  .home-link {
+    font-family: cursive;
+    font-size: 20px; /* Initial font size */
+    transition: font-size 0.3s; /* Smooth transition effect */
+  }
+  
+  .home-link:hover {
+    font-size: 22px; /* Increased font size on hover */
+  }
+  

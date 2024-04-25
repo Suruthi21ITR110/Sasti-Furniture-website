@@ -1,0 +1,70 @@
+.header {
+  position: relative; /* Make the header fixed */
+  top: 0; /* Position it at the top of the viewport */
+  width: 100%; /* Ensure it spans the entire width */
+  background: rgb(233, 237, 241);
+  border-bottom: 1px solid #000000;
+}
+
+.header a {
+  color: #000000;
+  font-weight: 'bold';
+}
+
+.header a:hover {
+  background: #68bedb;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  font-weight: 'bold';
+}
+
+.header ul a {
+  padding: 1rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.menu_container {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  z-index: 1001;
+  background-color: whitesmoke;
+  display: none;
+}
+
+.menu_container:hover .menu {
+  display: block;
+}
+
+.menu a {
+  width: 100%;
+  min-width: 8rem;
+}
+
+.cart_count {
+  background-color: #2a1e92;
+  color: white;
+  padding: 0.1rem 0.45rem;
+  border-radius: 100rem;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,109 @@
+
+/* .contact-container{
+    background-image: url('https://img.freepik.com/free-vector/sport-ball-frame-background_1308-27492.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710720000&semt=ais');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+} */
+
+/* styles.css */
+
+/* Style for the container of the address */
+/* .address-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(17, 23, 188, 0.1);
+    margin-bottom: 20px;
+  }
+   */
+  /* Style for the address text */
+  /* .address-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+   */
+  /* Style for individual address lines */
+  /* .address-line {
+    margin-bottom: 5px;
+  }
+   */
+
+
+   /* Contact.css */
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; /* Adjust as needed */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  flex: 1;
+  margin: 0 20px; /* Adjust as needed */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+address {
+  font-style: normal;
+  font-size: 14px;
+}
+
+/* Styling for Message component can be added here if necessary */
+/* Contact.css */
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; /* Adjust as needed */
+  background-image: url('https://img.freepik.com/premium-photo/gray-armchair-books_780608-32749.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708214400&semt=ais'); /* Replace 'your-background-image-url.jpg' with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensures the background covers the entire viewport height */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  flex: 1;
+  margin: 0 20px; /* Adjust as needed */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+address {
+  font-style: normal;
+  font-size: 14px;
+}
+
+/* Styling for Message component can be added here if necessary */

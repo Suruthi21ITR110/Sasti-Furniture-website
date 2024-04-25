@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* margin-top: 3rem; */
+  background-image: url('https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.details {
+  width: 25rem;
+}
+
+.details form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
